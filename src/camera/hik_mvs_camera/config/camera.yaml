@@ -1,0 +1,11 @@
+mvs_camera:
+  ros__parameters:
+    serial: ""
+    width: 1280
+    height: 1024
+    fps: 60.0
+    auto_exposure: false
+    exposure_us: 12000.0
+    gain: 6.0
+    auto_white_balance: true
+    frame_id: "camera"

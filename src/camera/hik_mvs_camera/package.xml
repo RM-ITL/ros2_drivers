@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hik_mvs_camera</name>
+  <version>0.0.1</version>
+  <description>HIKROBOT MVS to ROS 2 Image publisher</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <exec_depend>opencv</exec_depend>
+
+  <export>
+  <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
