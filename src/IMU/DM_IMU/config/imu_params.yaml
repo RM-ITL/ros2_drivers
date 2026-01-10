@@ -1,0 +1,22 @@
+# IMU节点参数配置文件
+dm_imu_node:
+  ros__parameters:
+    # 串口配置
+    port: "/dev/ttyACM0"
+    baud: 921600
+    
+    # IMU数据处理参数
+    frame_id: "imu_link"
+    
+    # 发布频率相关
+    publish_rate: 1000  # Hz
+    
+    # 数据处理选项
+    enable_accel: true
+    enable_gyro: true
+    enable_euler: true
+    enable_quaternion: false
+    
+    # 调试选项
+    debug_output: false
+    error_threshold: 1200  # 错误计数阈值
